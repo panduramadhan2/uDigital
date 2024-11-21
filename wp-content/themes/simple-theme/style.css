@@ -1,0 +1,37 @@
+/*
+Theme Name: Simple Theme
+Theme URI: http://example.com/simple-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A simple WordPress theme.
+Version: 1.0
+*/
+
+/* Basic styling for the theme */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Arial", sans-serif;
+}

@@ -1,0 +1,120 @@
+/* Ensure the body takes the full height of the screen */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content should take available space */
+main {
+  flex: 1; /* Take up available space */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.site-branding {
+  margin-top: 20px;
+}
+
+.site-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.site-title h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.site-tagline p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.primary-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-menu li {
+  margin-right: 20px;
+}
+
+.primary-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.primary-menu li:first-child {
+  order: -1;
+}
+
+/* Submenu Styling */
+.primary-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.primary-menu li:hover .sub-menu {
+  display: block;
+}
+
+.primary-menu .sub-menu li {
+  margin: 0;
+}
